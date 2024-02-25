@@ -2,6 +2,12 @@
  # Overview
 This project sets up an end-to-end data pipeline using Azure services. It involves creating a Resource Group, Storage Account, Azure Data Factory, Azure Databricks, and Azure Synapse Analytics. The pipeline extracts data from a GitHub repository, transforms it using Databricks, and loads it into Azure Synapse Analytics for further analytics. Finally, the data is visualized using Power BI.
 
+## Architecture Diagram:
+![Architecture Diagram](https://github.com/AdityaDevadiga/Olympic_Data_Analytics-using-AZURE_DATAFACTORY_AZURE_SYNAPSE/assets/72966036/fc4d8540-5fd1-40af-946f-3b61f69b0054)
+
+
+
+
 # Technologies Used
 Azure Storage Account: For data storage.
 Azure Data Factory: Orchestration tool for data movement.

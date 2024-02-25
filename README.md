@@ -42,6 +42,8 @@ Mount Data Lake:
 Use the following script to mount the Data Lake Storage:
 python
 Copy code
+
+
 configs = {
   "fs.azure.account.auth.type": "OAuth",
   "fs.azure.account.oauth.provider.type": "org.apache.hadoop.fs.azurebfs.oauth2.ClientCredsTokenProvider",
